@@ -1,13 +1,25 @@
 {application, psd2,
- [{description, "An OTP library"},
+ [{description, "PSD2 Open Banking API"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    inets,
+    ssl,
+    jsx
    ]},
   {env,[]},
-  {modules, []},
+  {modules, [
+             psd2,
+             swedbank_ais,
+             swedbank_auth,
+             swedbank_client,
+             swedbank_consent,
+             swedbank_pis,
+             swedbank_sca,
+             swedbank_utils
+            ]},
 
   {licenses, ["Apache 2.0"]},
   {links, []}
