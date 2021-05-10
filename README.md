@@ -10,6 +10,7 @@ Supported Banks
   - [x] Account Information Services (AIS)
   - [x] Payment Initiation Services (PIS)
   - [ ] Recurring Payments
+- *More is coming...*
 
 Build
 -----
